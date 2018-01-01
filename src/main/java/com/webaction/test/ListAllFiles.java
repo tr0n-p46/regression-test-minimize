@@ -22,7 +22,7 @@ public class ListAllFiles {
             if (file.isDirectory()) 
                 getFileList(file.getAbsolutePath());
             else {
-                if(file.getName().charAt(0)!='.')
+                //if(file.getName().charAt(0)!='.')
                     fileList.add(file.getAbsolutePath());
             }
         }

@@ -18,7 +18,7 @@ public class FilesCompare {
 	public static void main(String[]args) throws NoSuchAlgorithmException, FileNotFoundException, IOException {
 		FilesCompare filesCompare = new FilesCompare();
 		ListAllFiles listAllFiles = new ListAllFiles();
-		List<String> fileList = listAllFiles.getFileList("/Users/souvik/Product");
+		List<String> fileList = listAllFiles.getFileList("/Users/souvik/sample/weather");
 		GenerateChecksum generateChecksum = new GenerateChecksum();
 		CSVReader csvReader = new CSVReader();
 		Map<String, String> map = csvReader.read(CSV_FILE);

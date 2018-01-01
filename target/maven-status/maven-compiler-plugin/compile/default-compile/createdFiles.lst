@@ -10,9 +10,9 @@ com/webaction/test/ListAllFiles.class
 com/webaction/test/FilesCompare.class
 com/webaction/test/XMLParser.class
 com/webaction/test/CSVWriter.class
+com/webaction/test/Sample.class
 com/webaction/test/jacocobean/Method.class
 com/webaction/test/jacocobean/Package.class
 com/webaction/test/jacocobean/Report.class
 com/webaction/test/WriteFileChecksum.class
-Sample.class
 com/webaction/test/jacocobean/SessionInfo.class

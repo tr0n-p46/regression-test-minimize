@@ -16,7 +16,7 @@ public class ExtractChorusTestCases {
 		Set<String> testCases = new HashSet<String>();
 		for(String fileName : fileList) {
 			if(fileName.contains(".feature")) {
-				Pattern pattern = Pattern.compile("@[a-zA-Z0-9]+");
+				Pattern pattern = Pattern.compile("@[a-zA-Z0-9_]+");
     			BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));
 
     			String line;
