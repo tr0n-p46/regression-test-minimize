@@ -10,7 +10,7 @@ public class WriteFileChecksum {
 
 	public static void main(String[]args) throws NoSuchAlgorithmException, FileNotFoundException, IOException {
 		ListAllFiles listAllFiles = new ListAllFiles();
-		List<String> fileList = listAllFiles.getFileList("/Users/souvik/sample/regression-test-minimize");
+		List<String> fileList = listAllFiles.getFileList("/Users/souvik/sample/weather");
 		CSVWriter csvWriter = new CSVWriter("");
 		GenerateChecksum generateChecksum = new GenerateChecksum();
 		Map<String, String> map = new HashMap<String, String>();
