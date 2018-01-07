@@ -1,0 +1,37 @@
+2018-01-05 17:42:23.895 IST [13382] LOG:  listening on IPv6 address "::1", port 5432
+2018-01-05 17:42:23.895 IST [13382] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-01-05 17:42:23.895 IST [13382] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-01-05 17:42:23.905 IST [13383] LOG:  database system was shut down at 2018-01-04 18:50:09 IST
+2018-01-05 17:42:23.911 IST [13382] LOG:  database system is ready to accept connections
+2018-01-05 19:28:42.409 IST [13382] LOG:  received smart shutdown request
+2018-01-05 19:28:42.410 IST [13382] LOG:  worker process: logical replication launcher (PID 13389) exited with exit code 1
+2018-01-05 19:28:42.410 IST [13384] LOG:  shutting down
+2018-01-05 19:28:42.414 IST [13382] LOG:  database system is shut down
+2018-01-05 22:34:51.873 IST [1277] LOG:  listening on IPv6 address "::1", port 5432
+2018-01-05 22:34:51.873 IST [1277] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-01-05 22:34:51.873 IST [1277] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-01-05 22:34:51.883 IST [1278] LOG:  database system was shut down at 2018-01-05 19:28:42 IST
+2018-01-05 22:34:51.887 IST [1277] LOG:  database system is ready to accept connections
+2018-01-05 23:06:32.440 IST [1277] LOG:  received fast shutdown request
+2018-01-05 23:06:32.442 IST [1277] LOG:  aborting any active transactions
+2018-01-05 23:06:32.442 IST [1277] LOG:  worker process: logical replication launcher (PID 1284) exited with exit code 1
+2018-01-05 23:06:32.442 IST [1279] LOG:  shutting down
+2018-01-05 23:06:32.446 IST [1277] LOG:  database system is shut down
+2018-01-05 23:52:02.836 IST [2806] LOG:  listening on IPv6 address "::1", port 5432
+2018-01-05 23:52:02.836 IST [2806] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-01-05 23:52:02.836 IST [2806] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-01-05 23:52:02.843 IST [2807] LOG:  database system was shut down at 2018-01-05 23:06:32 IST
+2018-01-05 23:52:02.845 IST [2806] LOG:  database system is ready to accept connections
+2018-01-05 23:52:28.965 IST [2889] ERROR:  relation "method" does not exist at character 15
+2018-01-05 23:52:28.965 IST [2889] STATEMENT:  SELECT * FROM Method
+2018-01-05 23:54:22.532 IST [2915] ERROR:  syntax error at or near "DESC" at character 1
+2018-01-05 23:54:22.532 IST [2915] STATEMENT:  DESC Methods;
+2018-01-05 23:54:30.501 IST [2915] ERROR:  syntax error at or near "describe" at character 1
+2018-01-05 23:54:30.501 IST [2915] STATEMENT:  describe methods;
+2018-01-05 23:55:21.253 IST [2925] ERROR:  syntax error at or near "Methods" at character 9
+2018-01-05 23:55:21.253 IST [2925] STATEMENT:  EXPLAIN Methods;
+2018-01-06 11:16:20.662 IST [2806] LOG:  received fast shutdown request
+2018-01-06 11:16:20.664 IST [2806] LOG:  aborting any active transactions
+2018-01-06 11:16:20.665 IST [2806] LOG:  worker process: logical replication launcher (PID 2813) exited with exit code 1
+2018-01-06 11:16:20.665 IST [2808] LOG:  shutting down
+2018-01-06 11:16:20.670 IST [2806] LOG:  database system is shut down

@@ -6,7 +6,7 @@ import java.security.*;
 
 public class WriteFileChecksum {
 
-	private static final String CSV_FILE = "file_checksum.csv";
+	private static final String CSV_FILE = "/Users/souvik/sample/regression-test-minimize/file_checksum.csv";
 
 	public static void main(String[]args) throws NoSuchAlgorithmException, FileNotFoundException, IOException {
 		ListAllFiles listAllFiles = new ListAllFiles();

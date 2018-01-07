@@ -1,0 +1,19 @@
+1. Base App
+2. Notification Manager
+3. Custom Exception
+4. Listeners
+5. Multithreading
+
+Lo
+COMMAND [ARG]
+	[ARG] -> Directory to manage
+
+Structure :
+	1. Start process
+	2. Checks Postgres connection
+	3. Creates DB if not exists
+	4. Creates table if not exists
+	5. Scans diretory for source files
+	6. Pushes method level data to database
+	7. Watches git commits
+	8. 
