@@ -1,4 +1,4 @@
-package com.webaction.test;
+package com.webaction.test.exceptions;
 
 import java.sql.SQLException;
 

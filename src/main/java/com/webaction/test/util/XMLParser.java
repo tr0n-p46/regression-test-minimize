@@ -1,4 +1,4 @@
-package com.webaction.test;
+package com.webaction.test.util;
 
 import java.io.*;
 import javax.xml.bind.*;

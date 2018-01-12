@@ -35,3 +35,182 @@
 2018-01-06 11:16:20.665 IST [2806] LOG:  worker process: logical replication launcher (PID 2813) exited with exit code 1
 2018-01-06 11:16:20.665 IST [2808] LOG:  shutting down
 2018-01-06 11:16:20.670 IST [2806] LOG:  database system is shut down
+2018-01-08 21:47:26.877 IST [83156] LOG:  listening on IPv6 address "::1", port 5432
+2018-01-08 21:47:26.878 IST [83156] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-01-08 21:47:26.878 IST [83156] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-01-08 21:47:26.888 IST [83157] LOG:  database system was shut down at 2018-01-06 16:53:55 IST
+2018-01-08 21:47:26.892 IST [83156] LOG:  database system is ready to accept connections
+2018-01-08 21:48:51.409 IST [84449] FATAL:  database "jygj	" does not exist
+2018-01-08 22:02:37.698 IST [95207] FATAL:  database "MethodsMap" does not exist
+2018-01-08 22:02:38.007 IST [95208] FATAL:  database "MethodsMap" does not exist
+2018-01-08 22:03:06.449 IST [95475] ERROR:  unrecognized configuration parameter "databases"
+2018-01-08 22:03:06.449 IST [95475] STATEMENT:  show databases;
+2018-01-08 22:03:18.566 IST [95475] ERROR:  unrecognized configuration parameter "databases"
+2018-01-08 22:03:18.566 IST [95475] STATEMENT:  show databases;
+2018-01-08 22:04:10.373 IST [95475] ERROR:  syntax error at or near "show" at character 12
+2018-01-08 22:04:10.373 IST [95475] STATEMENT:  show 
+	show
+	show help
+	show database
+	show database;
+2018-01-08 22:04:22.365 IST [95475] ERROR:  syntax error at or near "help" at character 11
+2018-01-08 22:04:22.365 IST [95475] STATEMENT:  show
+	show help
+	show database
+	show help
+	show
+	show help
+	show database
+	show database;
+2018-01-08 22:04:30.036 IST [95475] ERROR:  unrecognized configuration parameter "help"
+2018-01-08 22:04:30.036 IST [95475] STATEMENT:  show help;
+2018-01-08 22:06:15.449 IST [95475] ERROR:  syntax error at or near "drop" at character 19
+2018-01-08 22:06:15.449 IST [95475] STATEMENT:  drop database vsk
+	drop database vsk;
+2018-01-08 22:07:45.927 IST [95475] ERROR:  syntax error at or near "drop" at character 19
+2018-01-08 22:07:45.927 IST [95475] STATEMENT:  drop database vsk
+	drop database souvik
+	commit;
+2018-01-08 22:07:49.030 IST [95475] WARNING:  there is no transaction in progress
+2018-01-08 22:07:53.062 IST [95475] ERROR:  syntax error at or near "commit" at character 8
+2018-01-08 22:07:53.062 IST [95475] STATEMENT:  commit
+	commit;
+2018-01-08 22:08:29.605 IST [95475] ERROR:  syntax error at or near "sdvd" at character 1
+2018-01-08 22:08:29.605 IST [95475] STATEMENT:  sdvd
+	vsd
+	clear
+	DROP DATABASE vsk
+	DROP DATABASE vsk;
+2018-01-08 22:09:00.436 IST [95475] ERROR:  cannot drop the currently open database
+2018-01-08 22:09:00.436 IST [95475] STATEMENT:  drop database souvik;
+2018-01-08 22:09:14.923 IST [95475] ERROR:  syntax error at or near "use" at character 1
+2018-01-08 22:09:14.923 IST [95475] STATEMENT:  use db
+	use db;
+2018-01-08 22:09:17.755 IST [95475] ERROR:  syntax error at or near "use" at character 1
+2018-01-08 22:09:17.755 IST [95475] STATEMENT:  use db;
+2018-01-08 22:09:18.723 IST [95475] ERROR:  syntax error at or near "use" at character 1
+2018-01-08 22:09:18.723 IST [95475] STATEMENT:  use db;
+2018-01-08 22:09:25.131 IST [95475] ERROR:  syntax error at or near "use" at character 1
+2018-01-08 22:09:25.131 IST [95475] STATEMENT:  use database db;
+2018-01-08 22:09:38.986 IST [95475] ERROR:  cannot drop the currently open database
+2018-01-08 22:09:38.986 IST [95475] STATEMENT:  drop database souvik;
+2018-01-08 22:10:43.039 IST [1794] FATAL:  database "heyy" does not exist
+2018-01-08 23:07:01.793 IST [22553] FATAL:  database "world" does not exist
+2018-01-08 23:14:14.335 IST [28287] ERROR:  syntax error at or near "NOT" at character 20
+2018-01-08 23:14:14.335 IST [28287] STATEMENT:  CREATE DATABASE IF NOT EXISTS world	
+2018-01-08 23:14:14.339 IST [28288] FATAL:  database "world	" does not exist
+2018-01-08 23:15:48.549 IST [29509] ERROR:  syntax error at or near "NOT" at character 20
+2018-01-08 23:15:48.549 IST [29509] STATEMENT:  CREATE DATABASE IF NOT EXISTS world	
+2018-01-08 23:15:48.553 IST [29510] FATAL:  database "world	" does not exist
+2018-01-08 23:16:12.446 IST [29811] ERROR:  syntax error at or near "NOT" at character 20
+2018-01-08 23:16:12.446 IST [29811] STATEMENT:  CREATE DATABASE IF NOT EXISTS war
+2018-01-08 23:16:12.450 IST [29812] FATAL:  database "war" does not exist
+2018-01-08 23:29:39.475 IST [40437] ERROR:  database "db" already exists
+2018-01-08 23:29:39.475 IST [40437] STATEMENT:  CREATE DATABASE db
+2018-01-08 23:29:39.477 IST [40437] ERROR:  relation "db" does not exist at character 15
+2018-01-08 23:29:39.477 IST [40437] STATEMENT:  SELECT * FROM db
+2018-01-08 23:30:14.714 IST [40998] ERROR:  syntax error at or near "NOT" at character 20
+2018-01-08 23:30:14.714 IST [40998] STATEMENT:  CREATE DATABASE IF NOT EXISTS db
+2018-01-08 23:30:14.717 IST [40998] ERROR:  relation "db" does not exist at character 15
+2018-01-08 23:30:14.717 IST [40998] STATEMENT:  SELECT * FROM db
+2018-01-08 23:33:55.174 IST [43805] ERROR:  database "db" already exists
+2018-01-08 23:33:55.174 IST [43805] STATEMENT:  CREATE DATABASE db
+2018-01-08 23:33:55.178 IST [43805] ERROR:  relation "db" does not exist at character 15
+2018-01-08 23:33:55.178 IST [43805] STATEMENT:  SELECT * FROM db
+2018-01-08 23:34:20.853 IST [44237] ERROR:  database "db" already exists
+2018-01-08 23:34:20.853 IST [44237] STATEMENT:  CREATE DATABASE db
+2018-01-08 23:35:28.807 IST [45065] ERROR:  relation "www" does not exist at character 15
+2018-01-08 23:35:28.807 IST [45065] STATEMENT:  SELECT * FROM www
+2018-01-08 23:37:01.789 IST [46286] ERROR:  database "www" already exists
+2018-01-08 23:37:01.789 IST [46286] STATEMENT:  CREATE DATABASE www
+2018-01-08 23:37:52.061 IST [46980] ERROR:  database "www" already exists
+2018-01-08 23:37:52.061 IST [46980] STATEMENT:  CREATE DATABASE www
+2018-01-08 23:37:52.070 IST [46981] ERROR:  relation "www" does not exist at character 15
+2018-01-08 23:37:52.070 IST [46981] STATEMENT:  SELECT * FROM www
+2018-01-08 23:38:48.511 IST [1627] ERROR:  syntax error at or near "not" at character 20
+2018-01-08 23:38:48.511 IST [1627] STATEMENT:  create database if not exists test;
+2018-01-08 23:39:02.599 IST [1627] ERROR:  syntax error at or near "not" at character 20
+2018-01-08 23:39:02.599 IST [1627] STATEMENT:  create database if not exist test;
+2018-01-09 08:45:05.761 IST [83156] LOG:  received smart shutdown request
+2018-01-09 08:45:05.762 IST [83156] LOG:  worker process: logical replication launcher (PID 83163) exited with exit code 1
+2018-01-09 08:45:05.762 IST [83158] LOG:  shutting down
+2018-01-09 08:45:05.768 IST [83156] LOG:  database system is shut down
+2018-01-09 22:13:46.672 IST [37731] LOG:  listening on IPv6 address "::1", port 5432
+2018-01-09 22:13:46.673 IST [37731] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-01-09 22:13:46.673 IST [37731] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-01-09 22:13:46.682 IST [37732] LOG:  database system was shut down at 2018-01-09 08:45:05 IST
+2018-01-09 22:13:46.687 IST [37731] LOG:  database system is ready to accept connections
+2018-01-09 22:14:59.709 IST [38695] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:15:00.028 IST [38697] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:15:45.152 IST [37740] ERROR:  syntax error at or near "drop" at character 25
+2018-01-09 22:15:45.152 IST [37740] STATEMENT:  drop database methodmap
+	drop database methodmap;
+2018-01-09 22:17:07.153 IST [40443] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:17:07.403 IST [40445] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:17:17.315 IST [40593] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:17:17.335 IST [40594] ERROR:  database "methodmap" already exists
+2018-01-09 22:17:17.335 IST [40594] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:17:17.337 IST [40595] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:18:35.636 IST [41535] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:18:35.894 IST [41537] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:18:50.239 IST [41833] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:18:50.489 IST [41835] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:19:17.162 IST [42266] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:19:17.417 IST [42268] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:19:55.728 IST [37740] ERROR:  database "methodmap" does not exist
+2018-01-09 22:19:55.728 IST [37740] STATEMENT:  drop database methodmap;
+2018-01-09 22:20:03.590 IST [42830] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:20:03.839 IST [42833] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:20:41.230 IST [43411] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:20:41.481 IST [43413] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:22:14.682 IST [44634] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:22:22.555 IST [44781] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:22:22.576 IST [44782] ERROR:  database "methodmap" already exists
+2018-01-09 22:22:22.576 IST [44782] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:24:00.514 IST [46113] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:24:00.534 IST [46114] ERROR:  database "methodmap" already exists
+2018-01-09 22:24:00.534 IST [46114] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:24:05.694 IST [46133] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:24:05.715 IST [46134] ERROR:  database "methodmap" already exists
+2018-01-09 22:24:05.715 IST [46134] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:25:29.198 IST [47221] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:25:29.218 IST [47222] ERROR:  database "methodmap" already exists
+2018-01-09 22:25:29.218 IST [47222] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:25:42.250 IST [47500] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:25:42.271 IST [47501] ERROR:  database "methodmap" already exists
+2018-01-09 22:25:42.271 IST [47501] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:26:21.091 IST [47934] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:26:21.116 IST [47935] ERROR:  database "methodmap" already exists
+2018-01-09 22:26:21.116 IST [47935] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:26:45.708 IST [37740] ERROR:  database "methodmap" does not exist
+2018-01-09 22:26:45.708 IST [37740] STATEMENT:  drop database MethodMap;
+2018-01-09 22:27:46.387 IST [49138] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:27:53.239 IST [49286] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:27:53.261 IST [49287] ERROR:  database "methodmap" already exists
+2018-01-09 22:27:53.261 IST [49287] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:28:01.975 IST [49305] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:28:01.997 IST [49306] ERROR:  database "methodmap" already exists
+2018-01-09 22:28:01.997 IST [49306] STATEMENT:  CREATE DATABASE MethodMap
+2018-01-09 22:28:27.927 IST [37740] ERROR:  syntax error at or near "use" at character 1
+2018-01-09 22:28:27.927 IST [37740] STATEMENT:  use methodsmap
+	use methodsmap;
+2018-01-09 22:28:52.160 IST [37740] ERROR:  syntax error at or near "use" at character 1
+2018-01-09 22:28:52.160 IST [37740] STATEMENT:  use database db;
+2018-01-09 22:28:56.408 IST [37740] ERROR:  syntax error at or near "use" at character 1
+2018-01-09 22:28:56.408 IST [37740] STATEMENT:  use db;
+2018-01-09 22:28:58.408 IST [37740] ERROR:  syntax error at or near "use" at character 1
+2018-01-09 22:28:58.408 IST [37740] STATEMENT:  use db;
+2018-01-09 22:28:59.272 IST [37740] ERROR:  syntax error at or near "use" at character 1
+2018-01-09 22:28:59.272 IST [37740] STATEMENT:  use db;
+2018-01-09 22:29:00.784 IST [37740] ERROR:  syntax error at or near "use" at character 1
+2018-01-09 22:29:00.784 IST [37740] STATEMENT:  use db;
+2018-01-09 22:29:01.904 IST [37740] ERROR:  syntax error at or near "use" at character 1
+2018-01-09 22:29:01.904 IST [37740] STATEMENT:  use db;
+2018-01-09 22:32:11.133 IST [52629] FATAL:  database "www" does not exist
+2018-01-09 22:32:54.456 IST [53192] FATAL:  database "www" does not exist
+2018-01-09 22:34:53.755 IST [54950] FATAL:  database "MethodMap" does not exist
+2018-01-09 22:38:36.946 IST [57888] FATAL:  database "methodmap" does not exist
+2018-01-10 01:04:50.680 IST [37731] LOG:  received smart shutdown request
+2018-01-10 01:04:50.681 IST [37731] LOG:  worker process: logical replication launcher (PID 37738) exited with exit code 1
+2018-01-10 01:04:50.681 IST [37733] LOG:  shutting down
+2018-01-10 01:04:50.686 IST [37731] LOG:  database system is shut down

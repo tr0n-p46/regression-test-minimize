@@ -10,6 +10,16 @@ public class Method {
 	private String checksum;
 	private String testCases;
 
+	public Method(int id, String packageName, String className, String methodName, String methodDesc, String checksum, String testCases) {
+		this.id = id;
+		this.packageName = packageName;
+		this.className = className;
+		this.methodName = methodName;
+		this.methodDesc = methodDesc;
+		this.checksum = checksum;
+		this.testCases = testCases;
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -62,7 +72,7 @@ public class Method {
 		return testCases;
 	}
 
-	public void setChecksum(String checksum) {
-		this.checksum = checksum;
+	public void setTestcases(String testCases) {
+		this.testCases = testCases;
 	}
 }

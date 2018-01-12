@@ -25,20 +25,30 @@ public class DBSession {
 		this.connection = connection;
 	}
 
-	public void createTable() {
-		
+	public void createDB(String dbName) {
+		String sql = "CREATE DATABASE " + dbName;
+		try {
+			Statement statement = connection.createStatement();
+			statement.executeQuery(sql);
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
 	}
 
-	public void deleteTable() {
-
+	public void dropDB(String dbName) {
+		String sql = "DROP DATABASE " + dbName;
+		try {
+			Statement statement = connection.createStatement();
+			statement.executeQuery(sql);
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
 	}
 
-	public void insertIntoTable() {
-
-	}
-
-	public void listData() throws DBException {
-		String sql = "SELECT * FROM Method;";
+	public void listData(String dbName) throws DBException {
+		String sql = "SELECT * FROM " + dbName;
 		try{
 			Statement statement = connection.createStatement();
 			ResultSet rs = statement.executeQuery(sql);

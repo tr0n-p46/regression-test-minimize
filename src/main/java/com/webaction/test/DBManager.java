@@ -40,6 +40,7 @@ public class DBManager {
 	public synchronized Connection getConnection(String dbHost, String dbPort, String dbName, String dbUsername, String dbPassword) throws DBException {
 		Connection connection = null;
 		try{
+			dbName = dbName.toLowerCase(); 	//SQL considers names case-sensitive unlike keywords
 			String url = "jdbc:postgresql://" + dbHost + ":" + dbPort + "/" + dbName;
 			Properties properties = new Properties();
 			properties.setProperty("user", dbUsername);
